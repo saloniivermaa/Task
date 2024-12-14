@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-DO List</title>
+    <link rel="stylesheet" href="./todo.css">
+    <link rel="icon" href="./images.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div id="main">
+   <div class="page">
+    <h1> <i class="fa-solid fa-list-check" style="color: #f5efef;"></i>
+                           TO-DO LIST
+         <i class="fa-solid fa-list-check" style="color: #f5efef;"></i>
+    </h1>
+    <br>
+    <div class="row">
+      <input type="text"  id="input" placeholder="ENTER YOUR TEXT">
+      <button onclick=addtext()>ADD</button>
+    </div>
+    <ul id="list">
+        <!-- <li class="checked">lyjhvvvvvvv</li> -->
+    </ul>
+
+   </div>
+  </div>
+   <script src="./todo.js"></script> 
+</body>
+</html>
